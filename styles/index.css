@@ -1,0 +1,123 @@
+/* font styles */
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared styles */
+.btn-primary{
+    background-color: #4E47FF;
+    font: bold;
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+
+}
+.common-font-color{
+    color: #252432;
+}
+
+
+/* nav styles */
+.header{
+    width: 1440px;
+    height: 698px;
+    background-image: url("../Assets/Hero-bg.png");
+}
+.nav-style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 158px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+    
+
+
+.nav-title{
+    color: #4E47FF;
+    font-size: 34px;
+}
+
+/* banner styles */
+
+
+ .banner{
+    border-radius: 0px;
+    border: none;
+    text-align: center;
+    margin: 158px 267px;
+    
+ }
+.banner-greetings{
+    font-weight: bold;
+    font-size: 65px;
+    width: 905px;
+    height: 152px;
+}
+.banner-profile-pic{
+    width: 1440px;
+    height: 698px;
+
+}
+ .button1{
+     background-color: #4E47FF;
+    font: bold;
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    width: 174px;
+    height: 48px;
+    gap: 16px;
+
+ }
+
+ /* action styles */
+ .action{
+    display: flex;
+    margin: 116px 150px;
+ }
+ .action-title{
+    width: 517;
+    height: 49;
+    font-weight: bold;
+    font-size: 42px;
+ }
+ .action-subtitle{
+    width: 517px;
+    height: 60px;
+    font-size: 24px;
+    color: #252432;
+ }
+ .action-button{
+    width: 229px;
+    height: 48px;
+    gap: 10px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+ }
+ .action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+.action-text{
+    margin-right: 220px;
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
