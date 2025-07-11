@@ -23,6 +23,11 @@
     border-radius: 10px;
 
 }
+.btn-sec{
+    font: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
 .common-font-color{
     color: #252432;
 }
@@ -118,4 +123,26 @@
 }
 .action-text{
     margin-right: 220px;
+}
+/* productive_user  */
+.productive-user{
+    margin-top: 116px;
+    margin-right: 159px;
+    margin-bottom: 137px;
+    margin-left: 141px;
+    padding: 50px 142px;
+    text-align: center;
+    background-color: #4E47FF1A;
+}
+.productive-user-titles{
+    font-size: 38px;
+    font-weight: bold;
+}
+.productive-user-items{
+    display: flex;
+    justify-content: space-around;
+}
+.productive-user-title{
+    font-size: 80px;
+    font-weight: bold;
 }
