@@ -132,12 +132,6 @@ main{
   margin: 0 auto;
 
 }
-/* main section{
-  margin-top: 113px;
-  margin-bottom: 113px;
-} */
-
-/* productive user */
   
  .about{
   border-radius: 26px;
@@ -194,4 +188,27 @@ main{
 }
 .skill-3{
     display: block;
+}
+
+/* focus */
+.focus{
+    border-radius: 2px;
+    box-shadow: 0px 6px 50px 0px #f4f5f4;
+    text-align: center;
+    padding: 51px 100px 51px 100px;
+    margin-top: 137px;
+    
+}
+
+.focus-headline{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.focus-sub-headline{
+    color: #0000005A;
+}
+.focus-img{
+   border-radius: 48px;
 }
