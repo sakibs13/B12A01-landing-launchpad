@@ -231,8 +231,7 @@ main{
 .formletter-bio form {
     display: flex;
     flex-direction: column;
-    /* width: 490px;
-    margin: 0 auto; */
+    width: 490px;
     gap: 19px;
 }
 
