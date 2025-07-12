@@ -264,7 +264,6 @@ main{
 /* footer */
 
 .footer-control{
-    /* padding: 104px 455px 104px 455px; */
     text-align: center;
     box-shadow: #ccc;
     width: 530px;
@@ -284,12 +283,11 @@ main{
     margin-bottom: 0px;
 }
 
-
-/* footer {
-    margin: 104px 455px 104px 455px;;
-} */
 .btn-primary:hover {
     background-color: #8c8c9a;
     cursor: pointer;
 }
 
+.formletter-bio input[type="submit"]:hover {
+    background-color: #8c8c9a;
+}
