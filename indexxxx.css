@@ -1,0 +1,281 @@
+/* Reset and background */
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #DDEEFF;
+  font-family: "Raleway", sans-serif;
+}
+
+/* font styles */
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+}
+
+/* shared styles */
+.btn-primary {
+  background-color: #4E47FF;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 36px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #c38f2e;
+  cursor: pointer;
+}
+.btn-sec {
+  font-weight: bold;
+  font-size: 80px;
+  color: #4E47FF;
+}
+.common-font-color {
+  color: #252432;
+}
+
+/* nav styles */
+.header {
+  background-image: url("../Assets/Hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+.nav-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+.nav-title {
+  color: #4E47FF;
+  font-size: 34px;
+}
+
+/* banner styles */
+.banner {
+  text-align: center;
+  padding: 100px 20px;
+}
+.banner-greetings {
+  font-weight: bold;
+  font-size: 65px;
+  max-width: 905px;
+  margin: 0 auto 30px;
+}
+.button1 {
+  background-color: #4E47FF;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 36px;
+  border-radius: 10px;
+  width: 174px;
+  height: 48px;
+  gap: 16px;
+}
+
+/* action section */
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.action-text {
+  padding-right: 50px;
+}
+.action-title {
+  font-weight: bold;
+  font-size: 42px;
+}
+.action-subtitle {
+  font-size: 24px;
+  color: #252432;
+  margin-bottom: 20px;
+}
+.action-button {
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  padding: 12px 36px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.action-img img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
+
+/* productive user */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.about {
+  background-color: #4E47FF1A;
+  border-radius: 26px;
+  text-align: center;
+  padding: 40px;
+}
+.productive-user-titles {
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 20px;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.item-title {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+}
+.item-decpription {
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+/* skills section */
+.skills {
+  padding: 80px 0;
+}
+.section-title-text-centre {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.skill-container {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.skill {
+  flex: 1;
+  min-width: 300px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px 0 10px;
+}
+.skill-description {
+  color: #333;
+  margin-bottom: 20px;
+}
+.skill-secondary {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* focus section */
+.focus {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.focus-headline {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.focus-sub-headline {
+  color: #0000005A;
+  margin-bottom: 30px;
+}
+.focus-img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 48px;
+  margin-top: 20px;
+}
+
+/* formletter */
+.formletter {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 20px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.formletter-headline {
+  font-size: 60px;
+  font-weight: bold;
+  color: #252432;
+}
+.formletter-bio form {
+  display: flex;
+  flex-direction: column;
+  width: 490px;
+  gap: 19px;
+}
+.formletter-bio input,
+.formletter-bio textarea,
+.formletter-bio label {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Raleway";
+}
+.formletter-bio input,
+.formletter-bio textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 6px 50px 0px #f4f5f4;
+}
+.formletter-bio input[type="submit"] {
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.formletter-bio input[type="submit"]:hover {
+  background-color: #8c8c9a;
+}
+
+/* footer */
+.footer-control {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  max-width: 1140px;
+  margin: 80px auto 0;
+}
+.footer-headline {
+  font-size: 100px;
+  font-weight: bold;
+  color: #4E47FF;
+  margin-bottom: 20px;
+}
+.footer-us {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}

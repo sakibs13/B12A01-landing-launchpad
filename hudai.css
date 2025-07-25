@@ -1,0 +1,293 @@
+/* font styles */
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared styles */
+.btn-primary{
+    background-color: #4E47FF;
+    font: bold;
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+
+}
+.btn-sec{
+    font: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.common-font-color{
+    color: #252432;
+}
+.form-font{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* nav styles */
+.header{
+    margin: 0 auto;
+    /* width: 1440px;
+    height: 698px; */
+    background-image: url("../Assets/Hero-bg.png");
+}
+.nav-style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 158px;
+    margin-left: 150px;
+    margin-right: 150px;
+  } 
+    
+
+
+.nav-title{
+    color: #4E47FF;
+    font-size: 34px;
+}
+
+/* banner styles */
+
+
+ .banner{
+    border-radius: 0px;
+    border: none;
+    text-align: center;
+    margin: 158px 267px;
+    
+ }
+.banner-greetings{
+    font-weight: bold;
+    font-size: 65px;
+    width: 905px;
+    height: 152px;
+}
+.banner-profile-pic{
+    width: 1440px;
+    height: 698px;
+
+}
+ .button1{
+     background-color: #4E47FF;
+    font: bold;
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    width: 174px;
+    height: 48px;
+    gap: 16px;
+
+ }
+
+ /* action styles */
+ .action{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+ .action-title{
+    width: 517;
+    height: 49;
+    font-weight: bold;
+    font-size: 42px;
+ }
+ .action-subtitle{
+    width: 517px;
+    height: 60px;
+    font-size: 24px;
+    color: #252432;
+ }
+ .action-button{
+    width: 229px;
+    height: 48px;
+    gap: 10px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+ }
+ .action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+.action-text{
+    margin-right: 220px;
+}
+/* productive_user  */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+  
+
+}
+  
+ .about{
+  border-radius: 26px;
+  text-align: center;
+  background-color: #4E47FF1A;
+  margin: 50px auto;
+  padding: 10px 70px;
+  
+}
+.productive-user-titles{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}  
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+.item-title{
+    margin-bottom: 0;
+    font-size: 80px;
+    font-weight: bold;
+}
+.item-decpription{
+  font-weight: 600;
+}
+
+
+/* skill */
+.skills{
+    gap: 50px;
+}
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.section-title-text-centre{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.skill-container{
+  display: flex;
+  gap: 24px;
+}
+.skill-secondary{
+    display: flex;
+    gap: 10px;
+}
+.skill-3{
+    display: block;
+}
+
+/* focus */
+.focus{
+    border-radius: 2px;
+    box-shadow: 0px 6px 50px 0px #f4f5f4;
+    text-align: center;
+    padding: 51px 100px 51px 100px;
+    margin-top: 137px;
+    
+}
+
+.focus-headline{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.focus-sub-headline{
+    color: #0000005A;
+}
+.focus-img{
+   border-radius: 48px;
+}
+
+/* formletter */
+.formletter{
+    display: flex;
+    border-radius: 2px;
+    margin-top: 95px;
+}
+.formletter-headline{
+    font-size: 95px;
+    font-weight: bold;
+}
+
+.formletter-bio form {
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    gap: 19px;
+}
+
+.formletter-bio input,
+.formletter-bio textarea,
+.formletter-bio label {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Raleway";
+}
+
+.formletter-bio input,
+.formletter-bio textarea {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-color: rgb(245, 244, 242);
+    box-shadow: 0px 6px 50px 0px #f4f5f4;
+    border-radius: #D6DDED;
+}
+
+.formletter-bio input[type="submit"] {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer-control{
+    text-align: center;
+    box-shadow: #ccc;
+    width: 530px;
+    height: 220px;
+    margin: 0 auto;
+}
+.footer-headline{
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.footer-us{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-headline{
+    margin-bottom: 0px;
+}
+
+.btn-primary:hover {
+    background-color: #8c8c9a;
+    cursor: pointer;
+}
+
+.formletter-bio input[type="submit"]:hover {
+    background-color: #8c8c9a;
+}
